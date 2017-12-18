@@ -1,7 +1,8 @@
 # ES6-Javascript
 
-Section 2: The 'forEach' Helper
-  Coding exercise 1: Moving away from For Loops:
+Section 2: The 'forEach' Helper 
+
+Coding exercise 1: Moving away from For Loops:
 
       //Use forEach method to replicate the process/result
       function handlePosts() {
@@ -24,7 +25,9 @@ Section 2: The 'forEach' Helper
       posts.forEach(function(post){
           savePost(post);
       });
+      
  Coding Exercise 2: Processing Values
+ 
       var images = [
         { height: 10, width: 30 },
         { height: 20, width: 90 },
