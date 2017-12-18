@@ -43,33 +43,33 @@ Section 3: The 'map' Finder
 
 Coding Exercise 3: Plucking Values
 
-  var images = [
-    { height: '34px', width: '39px' },
-    { height: '54px', width: '19px' },
-    { height: '83px', width: '75px' },
-  ];
+        var images = [
+          { height: '34px', width: '39px' },
+          { height: '54px', width: '19px' },
+          { height: '83px', width: '75px' },
+        ];
 
-  var heights = images.map(function(image){
-      return image.height;
-  });
-  
+        var heights = images.map(function(image){
+            return image.height;
+        });
+
 Coding Exercise 4: Calculating Values with Map
 
-  var trips = [
-    { distance: 34, time: 10 },
-    { distance: 90, time: 50 },
-    { distance: 59, time: 25 }
-  ];
+        var trips = [
+          { distance: 34, time: 10 },
+          { distance: 90, time: 50 },
+          { distance: 59, time: 25 }
+        ];
 
-  var speeds = trips.map(function(trip){
-      return trip.distance/trip.time;
-  });
+        var speeds = trips.map(function(trip){
+            return trip.distance/trip.time;
+        });
 
 Coding Exercise 5: Really Hard - Implementing Pluck
 
-  function pluck(array, property) {
-      var values = array.map(function(item){
-          return item[property];
-      });
-      return values;
-  }
+        function pluck(array, property) {
+            var values = array.map(function(item){
+                return item[property];
+            });
+            return values;
+        }
