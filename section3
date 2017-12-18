@@ -23,3 +23,12 @@ Coding Exercise 4: Calculating Values with Map
   var speeds = trips.map(function(trip){
       return trip.distance/trip.time;
   });
+
+Coding Exercise 5: Really Hard - Implementing Pluck
+
+  function pluck(array, property) {
+      var values = array.map(function(item){
+          return item[property];
+      });
+      return values;
+  }
